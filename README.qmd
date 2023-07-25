@@ -102,8 +102,8 @@ However, you need to first combine the geographic dataset representing origins a
 An example of this type of this is is demonstrated in the code chunk below.
 
 ```{bash}
-odjitter jitter --od-csv-path data/od_destinations.csv \
-  --zones-path data/zones_combined.geojson \
+odjitter jitter --od-csv-path data/od.csv \
+  --zones-path data/zones.geojson \
   --subpoints-origins-path data/road_network.geojson \
   --subpoints-destinations-path data/road_network.geojson \
   --disaggregation-threshold 50 \
